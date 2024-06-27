@@ -22,13 +22,14 @@ public class Even_Odd
         }
     }
 
+
     public static void main(String[] args) {
 
         Even_Odd obj = new Even_Odd();
-        obj.F();
+        obj.O();
     }
 
-    void F()
+    void O()
     {
 
         for(int i = 0 ;i<100;i++)
@@ -45,5 +46,4 @@ public class Even_Odd
             }
         }
     }
-
 }
