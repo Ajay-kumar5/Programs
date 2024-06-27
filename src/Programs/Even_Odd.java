@@ -22,7 +22,13 @@ public class Even_Odd
         }
     }
 
-    void M()
+    public static void main(String[] args) {
+
+        Even_Odd obj = new Even_Odd();
+        obj.F();
+    }
+
+    void F()
     {
 
         for(int i = 0 ;i<100;i++)
@@ -38,12 +44,6 @@ public class Even_Odd
                 System.out.print(i);
             }
         }
-    }
-
-    public static void main(String[] args) {
-
-        Even_Odd obj = new Even_Odd();
-        obj.M();
     }
 
 }
