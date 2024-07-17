@@ -2,11 +2,11 @@ package Programs;
 
 import java.util.Scanner;
 
-public class String_Reverse {
+public class  String_Reverse {
     public static void main(String[] args) {
 
         String_Reverse obj = new String_Reverse();
-        obj.Easy();
+        obj.Words();
     }
 
     void Words() {
@@ -16,7 +16,7 @@ public class String_Reverse {
 
         char[] z = x.toCharArray();
         for (int i = z.length - 1; i >= 0; i--) {
-            System.out.println(z[i]);
+            System.out.print(z[i]);
         }
     }
 

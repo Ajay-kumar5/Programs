@@ -6,7 +6,7 @@ public class Wordreverse {
 
     public static void main(String[] args) {
         Wordreverse obj = new Wordreverse();
-        obj.s();
+        obj.R();
     }
 
     void R() {
@@ -27,7 +27,7 @@ public class Wordreverse {
         String[] R = x.split(" ");
 
         for (int i = R.length - 1; i >= 0; i--) {
-            System.out.println(R[i]);
+            System.out.print(R[i]);
         }
 
 
