@@ -1,3 +1,5 @@
+package Programs;
+
 import java.util.Scanner;
 
 public class Palindrome
@@ -20,7 +22,7 @@ public class Palindrome
 
         if(r.equals(b))
         {
-            System.out.println("Palindrome");
+            System.out.println("Programs.Palindrome");
         }
         else
         {

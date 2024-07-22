@@ -1,3 +1,5 @@
+package Programs;
+
 public class Armstrong
 {
 
@@ -19,11 +21,11 @@ public class Armstrong
 
         if(x == sum)
         {
-            System.out.println("Armstrong");
+            System.out.println("Programs.Armstrong");
         }
         else
         {
-            System.out.println("Not a Armstrong");
+            System.out.println("Not a Programs.Armstrong");
         }
     }
 
