@@ -27,7 +27,7 @@ public class Check_vowelin_string {
 
             } else {
                 count1++;
-                System.out.println("not avowels = " + x);
+                System.out.println("not a vowels = " + x);
             }
         }
         System.out.println(count);
